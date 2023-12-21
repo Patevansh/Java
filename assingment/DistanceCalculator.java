@@ -3,17 +3,18 @@ import java.util.Scanner;
 
 public class DistanceCalculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter latitude and longitude of City 1 ");
-        double lat1 = scanner.nextDouble();
-        double lon1 = scanner.nextDouble();
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Enter latitude and longitude of City 1 ");
+            double lat1 = scanner.nextDouble();
+            double lon1 = scanner.nextDouble();
 
-        System.out.print("Enter latitude and longitude of City 2");
-        double lat2 = scanner.nextDouble();
-        double lon2 = scanner.nextDouble();
+            System.out.print("Enter latitude and longitude of City 2");
+            double lat2 = scanner.nextDouble();
+            double lon2 = scanner.nextDouble();
 
-        double distance = calculateDistance(lat1, lon1, lat2, lon2);
-        System.out.println("The distance between the two cities is approximately " + distance + " kilometers.");
+            double distance = calculateDistance(lat1, lon1, lat2, lon2);
+            System.out.println("The distance between the two cities is approximately " + distance + " kilometers.");
+        }
     }
 
     public static double calculateDistance(double lat1, double lon1, double lat2, double lon2) {

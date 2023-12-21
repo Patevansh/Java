@@ -2,8 +2,6 @@ package Java;
 
 class Testco {
     public static void main(String[] args){
-        M2 m=new M2(1);
-        M4 mm=new M4();
     }
 }
 class M1{

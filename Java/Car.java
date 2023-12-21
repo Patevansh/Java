@@ -1,6 +1,4 @@
 package Java;
-
-import Java.Testin;
 class Car {
     public static void main(String[] args){
        Call c=new Call();
