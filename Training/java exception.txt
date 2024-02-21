@@ -1,0 +1,5 @@
+1)can a single catch block contain more than one exception class
+yes with using bitwise or(|) opreator 			
+description : this feature has been implemented in java from jdk 7.
+
+2)
