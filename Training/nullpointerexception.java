@@ -4,7 +4,7 @@ public class nullpointerexception {
     }
     public static void main(String args[]){
         nullpointerexception obj = null;
-        //obj = new nullpointerexception;
+        obj = new nullpointerexception();
         obj.func1();
     }
 }
