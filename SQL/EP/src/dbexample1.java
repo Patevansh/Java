@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class dbexample1 {
 	public static void main(String[] args) throws Exception {
 		try {
+			
 			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 
 			String conurl = "jdbc:mysql://localhost:3306/myrestaurant?useSSL=false";

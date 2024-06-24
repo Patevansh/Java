@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../C-Language"
+		},
+		{
+			"path": "../../Html"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Pseudo_code"
+		},
+		{
+			"path": "../../Python"
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.19.jar"
+		]
+	}
+}
